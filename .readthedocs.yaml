@@ -1,5 +1,9 @@
 version: 2
 formats: []
+build:
+  os: ubuntu-22.04  # または ubuntu-latest
+  tools:
+    python: "3.9"
 python:
   install:
     - requirements: requirements.txt
