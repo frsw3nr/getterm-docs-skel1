@@ -1,0 +1,7 @@
+version: 2
+formats: []
+python:
+  install:
+    - requirements: requirements.txt
+sphinx:
+  configuration: source/conf.py
